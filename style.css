@@ -40,9 +40,10 @@
     line-height: 44px;
 }
 
-.n-item ul li a:hover{
+.n-item ul li a:hover {
     color: white;
 }
+
 .n-btn button {
     width: 140px;
     height: 35px;
@@ -71,4 +72,98 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
-/* navigation bar section  */
+
+/* navigation bar section end  */
+/* banner section stard  */
+.banner{
+    background-image: url(./images/hero-bg.png);
+    width: 100%;
+    height: 540px;
+    background-repeat: no-repeat;
+}
+
+.banner-text-box{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner-text-box a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: rgba(70, 145, 101, 1);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transform: 0.3s;
+}
+.banner-text-box a:hover{
+    background-color: rgba(22, 167, 70, 0.877);
+    color: white;
+}
+.banner-text-box h1{
+    margin-top: 30px;
+    color: white;
+    font-size: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.banner-text-box h2{
+    color: rgb(16, 211, 97);
+    font-size: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.banner-text-box p{
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.banner-bnt{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.banner-bnt button{
+    height: 45px;
+    padding: 0 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.banner-bnt button a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.btn1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: rgba(70, 145, 101, 1);
+    transition: 0.3s;
+    border: none;
+}
+.btn1:hover{
+    background-color: rgb(5, 81, 245);
+    transform: scale(1.05);
+}
+
+.btn2{
+    margin-top: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 0.3s;
+}
+
+.btn2:hover{
+    background-color: rgba(70, 145, 101, 0.24);
+    border: 2px solid black;
+    transform: scale(1.05);
+}
+/* banner section stard  */
