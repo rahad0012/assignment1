@@ -156,14 +156,84 @@
 
 .btn2{
     margin-top: 5px;
-    background-color: transparent;
-    border: 2px solid white;
+    background-color: rgba(228, 226, 226, 0.082);
+    border: 1px solid white;
     transition: 0.3s;
 }
 
 .btn2:hover{
     background-color: rgba(70, 145, 101, 0.24);
-    border: 2px solid black;
+    border: 1px solid black;
     transform: scale(1.05);
 }
 /* banner section stard  */
+
+/* card section start  */
+.text-box{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.text-box h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+}
+.text-box p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.card-box{
+    display: flex;
+    width: 1180px;
+    margin: auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card{
+    width: 322px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 12px;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+}
+.card img{
+    width: 16px;
+    height: 16px;
+}
+
+.card div{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px; 
+}
+
+.card h3{
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #222;
+}
+
+.card p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+/* cars section end  */
