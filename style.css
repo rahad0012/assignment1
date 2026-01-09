@@ -80,6 +80,8 @@
     width: 100%;
     height: 540px;
     background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
 }
 
 .banner-text-box{
@@ -294,11 +296,15 @@
 /* challenge section start  */
 .challenge{
     width: 1180px;
-    height: 250px;
+    height: 300px;
     background-color: rgba(218, 196, 157, 0.13);
     margin: 0 auto;
     border-radius: 15px;
     text-align: center;
+    transition: 0.3s;
+}
+.challenge:hover{
+    transform: scale(1.1);
 }
 .challenge h2{
     padding-top: 50px;
@@ -324,6 +330,11 @@
     border: none;
     gap: 10px;
     border-radius: 8px;
+    transition: 0.3s;
+}
+.btn3:hover{
+    background-color: rgba(12, 12, 226, 0.863);
+    transform: scale(1.1);
 }
 .btn3 a{
     text-decoration: none;
@@ -331,4 +342,65 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+/* challenge section end  */
+footer{
+    width: 100%;
+    height: 280px;
+    background-color: rgba(0, 25, 49, 1);
+    margin-top: 100px;
+}
+.footer-box{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
 
+.footer-box div{
+    margin: 50px;
+}
+
+.footer-box div img{
+    width: 139px;
+    height: 60px;
+}
+.footer-box .Social-link h5{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    color: white;
+}
+
+.footer-box .Social-link i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.Social-link div{
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.footer-line{
+    width: 1050px;
+    height: 0;
+    border: 1px solid white;
+    margin: auto;
+}
+
+footer p{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 200;
+}
