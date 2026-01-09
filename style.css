@@ -237,3 +237,56 @@
     color: #555;
 }
 /* cars section end  */
+
+/* solution section start  */
+.solution-section{
+    display: flex;
+    width: 1180px;
+    margin: 100px auto;
+    gap: 25px;
+    justify-content: space-around;
+}
+.s-image img{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.s-text{
+    margin-top: 50px;
+    width: 500px;
+}
+
+.s-text h5{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    text-transform: uppercase;
+    color: rgb(18, 202, 58);
+}
+
+.s-text h2{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.s-text p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.s-text div{
+    padding: 20px 0;
+}
+.s-text div p{
+    padding: 3px 0;
+}
+.s-text div p img{
+    width: 15px;
+    height: 15px;
+    padding: 0 5px;
+}
+/* solution section end  */
